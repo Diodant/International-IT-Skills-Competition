@@ -36,7 +36,7 @@ const MainContent = () => {
           <p className="services-subtitle">В рамках чемпионата участники соревнуются в различных номинациях, отражающих ключевые направления и достижения в IT-индустрии.</p></div>
           <div>
           <Link to="/about" className="services-button">
-            Больше о конкурсе <i className="flaticon-right-arrow-1"></i>
+            Больше о чемпионате <i className="flaticon-right-arrow-1"></i>
           </Link>
           </div>
         </div>
@@ -69,7 +69,7 @@ const MainContent = () => {
         </div>
       </div>
 
-      {/* New Section */}
+
       <div className="why-choose-us-section">
         <div className="why-choose-us-content">
         <div className='pre-title'>почему мы</div>  

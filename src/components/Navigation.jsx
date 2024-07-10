@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import LogoImg from '../img/logo.svg'
+import { NavLink } from 'react-router-dom';
+import LogoImg from '../img/logo.svg';
 
 const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -28,13 +28,13 @@ const Navigation = () => {
           <img src={LogoImg} alt="Flex-IT Logo" />
         </div>
         <ul className="navbar-menu">
-          <li><Link to="#home" className="active">Home</Link></li>
-          <li><Link to="#about">About Us</Link></li>
-          <li><Link to="#services">Services</Link></li>
-          <li><Link to="#portfolio">Portfolio</Link></li>
-          <li><Link to="#blog">Blog</Link></li>
-          <li><Link to="#pages">Pages</Link></li>
-          <li><Link to="#contact">Contact Us</Link></li>
+          <li><NavLink to="/" activeClassName="active">Главная</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active">О нас</NavLink></li>
+          <li><NavLink to="/position" activeClassName="active">Положения</NavLink></li>
+          <li><NavLink to="/criteria" activeClassName="active">Критерии оценки</NavLink></li>
+          <li><NavLink to="/winners" activeClassName="active">Победители</NavLink></li>
+          <li><NavLink to="/#pages" activeClassName="active">Pages</NavLink></li>
+          <li><NavLink to="/#contact" activeClassName="active">Contact Us</NavLink></li>
         </ul>
       </div>
     </nav>

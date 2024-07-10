@@ -5,9 +5,9 @@ const PageHeader = ({ title }) => {
   return (
     <div className="page-header-container">
       <h1 className="page-header-title">{title}</h1>
-      <p className="page-header-breadcrumbs">
+      <div className="page-header-breadcrumbs">
         <Link to="/"><i className='flaticon-home home-icon'></i>ГЛАВНАЯ</Link> &gt; {title.toUpperCase()}
-      </p>
+      </div>
     </div>
   );
 };
