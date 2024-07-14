@@ -33,8 +33,7 @@ const Navigation = () => {
           <li><NavLink to="/position" activeClassName="active">Положения</NavLink></li>
           <li><NavLink to="/criteria" activeClassName="active">Критерии оценки</NavLink></li>
           <li><NavLink to="/winners" activeClassName="active">Победители</NavLink></li>
-          <li><NavLink to="/#pages" activeClassName="active">Pages</NavLink></li>
-          <li><NavLink to="/#contact" activeClassName="active">Contact Us</NavLink></li>
+          <li><NavLink to="/judges" activeClassName="active">Судьи</NavLink></li>
         </ul>
       </div>
     </nav>

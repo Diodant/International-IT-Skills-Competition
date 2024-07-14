@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import MainImg from '../img/Offerings@2x.png';
 import UsImg from '../img/why-choose-us.png';
+import TrustedImage from '../img/1.png';
 
 const MainContent = () => {
   return (
@@ -18,7 +19,7 @@ const MainContent = () => {
             <div className='pre-title'>международный чемпионат</div>
             <div className='main-title'>International IT <br /> Skills <span className="highlight">Competition</span></div>
             <p className='main-text'>Объединяющий выдающихся IT-специалистов из всех стран СНГ. Это событие, проводимое ежегодно с 1 по 17 апреля с 2019 года, стало синонимом высочайших стандартов профессионализма и инноваций в IT-сфере.</p>
-            <Link to="/start" className="start-button">Start Now</Link>
+            <Link to="/start" className="start-button">Подать заявку</Link>
           </div>
           <div className="image-section">
             <div className="orbit"></div>
@@ -69,6 +70,52 @@ const MainContent = () => {
         </div>
       </div>
 
+      <div className="trusted-section">
+      <div className="trusted-content">
+        <div className="pre-title">О НАС</div>
+        <h2 className="trusted-title">
+          Мы работаем для вас с <span className="highlight">2019</span>
+        </h2>
+        <p className="trusted-description">
+        С 1 по 17 апреля 2019 года чемпионат предоставляет динамичную платформу для лучших умов IT-индустрии, где они могут продемонстрировать свои исключительные навыки и решения. Участники соревнуются в различных номинациях, подчеркивая свою экспертизу и инновационность. Этот период интенсивных соревнований и сотрудничества позволяет участникам расширять границы технологий, развивать новые идеи и устанавливать стандарты в отрасли.
+        </p>
+        <div className="trusted-cards">
+          <div className="trusted-card">
+            <div className="trusted-icon">
+              <i className="flaticon-medal info-icon"></i>
+            </div>
+            <h3 className="trusted-card-title">Мировое признание</h3>
+
+          </div>
+          <div className="trusted-card">
+            <div className="trusted-icon">
+              <i className="flaticon-technical-support-1  info-icon"></i>
+            </div>
+            <h3 className="trusted-card-title">Престижная платформа</h3>
+
+          </div>
+          <div className="trusted-card">
+            <div className="trusted-icon">
+              <i className="flaticon-nft-1 info-icon"></i>
+            </div>
+            <h3 className="trusted-card-title">Эксклюзивный доступ</h3>
+
+          </div>
+          <div className="trusted-card">
+            <div className="trusted-icon">
+              <i className="flaticon-game-console info-icon"></i>
+            </div>
+            <h3 className="trusted-card-title">Инновации и превосходство</h3>
+
+          </div>
+        </div>
+        <Link to="/winners" className="services-button">Победители</Link>
+      </div>
+      <div className="trusted-image">
+        <img src={TrustedImage} alt="Trusted Clients" />
+      </div>
+    </div>
+
 
       <div className="why-choose-us-section">
         <div className="why-choose-us-content">
@@ -104,6 +151,7 @@ const MainContent = () => {
           <img src={UsImg} alt="Why Choose Us" />
         </div>
       </div>
+
     </>
   );
 };

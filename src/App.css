@@ -625,6 +625,99 @@ a:focus {
   height: auto;
 }
 
+.trusted-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.trusted-content {
+  flex: 1;
+  padding: 0 30px;
+}
+
+.pre-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #09aff4;
+  margin-bottom: 10px;
+}
+
+.trusted-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.highlight {
+  color: #09aff4;
+  font-weight: 700;
+}
+
+.trusted-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.trusted-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 40px;
+}
+
+.trusted-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex: 1 1 calc(50% - 2rem);
+
+  background-color: #fff;
+  text-align: left;
+}
+
+.info-icon {
+  display: flex;
+  margin-right: 1.25rem;
+  color: var(--clr-main);
+  font-size: 2rem;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: rgba(var(--clr-main-rgb), 0.15);
+}
+
+.trusted-icon {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.trusted-card-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trusted-image {
+  flex: 1;
+  text-align: center;
+}
+
+.trusted-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+
 /* AboutUs */
 
 .about-page {
@@ -957,4 +1050,57 @@ margin-right: 3px;
 
 .page-header-breadcrumbs a:hover {
   color: var(--clr-main);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo img {
+  height: 60px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: var(--clr-white);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #d1d1d1;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
 }
