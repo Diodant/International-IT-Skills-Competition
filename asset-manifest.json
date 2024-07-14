@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/International-IT-Skills-Competition/static/css/main.55fcf3d3.css",
+    "main.js": "/International-IT-Skills-Competition/static/js/main.35afe585.js",
+    "static/js/453.ae3339de.chunk.js": "/International-IT-Skills-Competition/static/js/453.ae3339de.chunk.js",
+    "static/media/3d-geometric-abstract-twist-background.jpg": "/International-IT-Skills-Competition/static/media/3d-geometric-abstract-twist-background.d4ac0bcdc702e2eb9704.jpg",
+    "static/media/flaticon.svg": "/International-IT-Skills-Competition/static/media/flaticon.80562b44dea3e86324ad.svg",
+    "static/media/1.png": "/International-IT-Skills-Competition/static/media/1.9d782de0272659fe0e45.png",
+    "static/media/why-choose-us.png": "/International-IT-Skills-Competition/static/media/why-choose-us.2806f91216c03cff726b.png",
+    "static/media/flaticon.eot": "/International-IT-Skills-Competition/static/media/flaticon.b6b0d40051768543ff4a.eot",
+    "static/media/flaticon.ttf": "/International-IT-Skills-Competition/static/media/flaticon.8dd59ad601c21bda9f78.ttf",
+    "static/media/Offerings@2x.png": "/International-IT-Skills-Competition/static/media/Offerings@2x.46e2822a9253ab79ad2f.png",
+    "static/media/flaticon.woff": "/International-IT-Skills-Competition/static/media/flaticon.0ed5896e1b12e1212a83.woff",
+    "static/media/flaticon.woff2": "/International-IT-Skills-Competition/static/media/flaticon.6ecce71f5d24cee7eb87.woff2",
+    "static/media/logo.svg": "/International-IT-Skills-Competition/static/media/logo.f047c7564b97d3da65ab0b834225e9c5.svg",
+    "index.html": "/International-IT-Skills-Competition/index.html",
+    "main.55fcf3d3.css.map": "/International-IT-Skills-Competition/static/css/main.55fcf3d3.css.map",
+    "main.35afe585.js.map": "/International-IT-Skills-Competition/static/js/main.35afe585.js.map",
+    "453.ae3339de.chunk.js.map": "/International-IT-Skills-Competition/static/js/453.ae3339de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55fcf3d3.css",
+    "static/js/main.35afe585.js"
+  ]
+}
