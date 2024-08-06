@@ -716,6 +716,36 @@ a:focus {
   height: auto;
 }
 
+.sponsors-section {
+  background-color: var(--clr-main);
+  padding: 40px 0;
+  margin: 60px 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.sponsors-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sponsors-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sponsors-logos img {
+  max-width: 150px;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 /* AboutUs */
@@ -987,6 +1017,94 @@ a:focus {
 .winner-card strong {
   color: var(--clr-main);
   font-weight: 500;
+}
+
+/* Judges */
+
+.judges-page {
+  padding: 60px 30px;
+  max-width: 1240px;
+  margin: 0 auto;
+  font-family: 'Jost', sans-serif;
+}
+
+.judges-intro {
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.judges-intro ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.judges-intro ul li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+  font-weight: 400;
+}
+
+.judges-intro ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--clr-main);
+  font-size: 20px;
+}
+
+.judges-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+
+.judges-year-title {
+  font-size: 2.5rem;
+    font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.judge-card {
+  border-radius: 0.5rem;
+    padding: 2rem;
+    border: 1px solid rgba(var(--clr-main-rgb), 0.35);
+    box-shadow: 0px 0px 10px 0px rgba(var(--clr-dark-blue-rgb), 0.1);
+    background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.judge-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #09aff4;
+  margin-bottom: 10px;
+}
+
+.judge-country {
+  font-weight: 400;
+  color: #888;
+}
+
+.judge-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.judge-card strong {
+  color: #333;
+  font-weight: 500;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
 }
 
 /* Page-header */

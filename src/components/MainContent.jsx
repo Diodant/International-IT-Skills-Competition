@@ -4,6 +4,14 @@ import MainImg from '../img/Offerings@2x.png';
 import UsImg from '../img/why-choose-us.png';
 import TrustedImage from '../img/1.png';
 
+
+import SponsorLogo1 from '../img/sponsors/1.svg'; 
+import SponsorLogo2 from '../img/sponsors/2.svg';
+import SponsorLogo3 from '../img/sponsors/3.svg';
+import SponsorLogo4 from '../img/sponsors/4.svg';
+import SponsorLogo5 from '../img/sponsors/5.svg';
+import SponsorLogo6 from '../img/sponsors/6.svg';
+
 const MainContent = () => {
   return (
     <>
@@ -71,78 +79,73 @@ const MainContent = () => {
       </div>
 
       <div className="trusted-section">
-      <div className="trusted-content">
-        <div className="pre-title">О НАС</div>
-        <h2 className="trusted-title">
-          Мы работаем для вас с <span className="highlight">2019</span>
-        </h2>
-        <p className="trusted-description">
-        С 1 по 17 апреля 2019 года чемпионат предоставляет динамичную платформу для лучших умов IT-индустрии, где они могут продемонстрировать свои исключительные навыки и решения. Участники соревнуются в различных номинациях, подчеркивая свою экспертизу и инновационность. Этот период интенсивных соревнований и сотрудничества позволяет участникам расширять границы технологий, развивать новые идеи и устанавливать стандарты в отрасли.
-        </p>
-        <div className="trusted-cards">
-          <div className="trusted-card">
-            <div className="trusted-icon">
-              <i className="flaticon-medal info-icon"></i>
+        <div className="trusted-content">
+          <div className="pre-title">О НАС</div>
+          <h2 className="trusted-title">
+            Мы работаем для вас с <span className="highlight">2019</span>
+          </h2>
+          <p className="trusted-description">
+            С 1 по 17 апреля 2019 года чемпионат предоставляет динамичную платформу для лучших умов IT-индустрии, где они могут продемонстрировать свои исключительные навыки и решения. Участники соревнуются в различных номинациях, подчеркивая свою экспертизу и инновационность. Этот период интенсивных соревнований и сотрудничества позволяет участникам расширять границы технологий, развивать новые идеи и устанавливать стандарты в отрасли.
+          </p>
+          <div className="trusted-cards">
+            <div className="trusted-card">
+              <div className="trusted-icon">
+                <i className="flaticon-medal info-icon"></i>
+              </div>
+              <h3 className="trusted-card-title">Мировое признание</h3>
             </div>
-            <h3 className="trusted-card-title">Мировое признание</h3>
-
-          </div>
-          <div className="trusted-card">
-            <div className="trusted-icon">
-              <i className="flaticon-technical-support-1  info-icon"></i>
+            <div className="trusted-card">
+              <div className="trusted-icon">
+                <i className="flaticon-technical-support-1 info-icon"></i>
+              </div>
+              <h3 className="trusted-card-title">Престижная платформа</h3>
             </div>
-            <h3 className="trusted-card-title">Престижная платформа</h3>
-
-          </div>
-          <div className="trusted-card">
-            <div className="trusted-icon">
-              <i className="flaticon-nft-1 info-icon"></i>
+            <div className="trusted-card">
+              <div className="trusted-icon">
+                <i className="flaticon-nft-1 info-icon"></i>
+              </div>
+              <h3 className="trusted-card-title">Эксклюзивный доступ</h3>
             </div>
-            <h3 className="trusted-card-title">Эксклюзивный доступ</h3>
-
-          </div>
-          <div className="trusted-card">
-            <div className="trusted-icon">
-              <i className="flaticon-game-console info-icon"></i>
+            <div className="trusted-card">
+              <div className="trusted-icon">
+                <i className="flaticon-game-console info-icon"></i>
+              </div>
+              <h3 className="trusted-card-title">Инновации и превосходство</h3>
             </div>
-            <h3 className="trusted-card-title">Инновации и превосходство</h3>
-
           </div>
+          <Link to="/winners" className="services-button">Победители</Link>
         </div>
-        <Link to="/winners" className="services-button">Победители</Link>
+        <div className="trusted-image">
+          <img src={TrustedImage} alt="Trusted Clients" />
+        </div>
       </div>
-      <div className="trusted-image">
-        <img src={TrustedImage} alt="Trusted Clients" />
-      </div>
-    </div>
-
 
       <div className="why-choose-us-section">
         <div className="why-choose-us-content">
-        <div className='pre-title'>почему мы</div>  
+          <div className='pre-title'>почему мы</div>  
           <h2 className="why-choose-us-title">
-          Почему <span className="highlight">стоит</span> участвовать?
+            Почему <span className="highlight">стоит</span> участвовать?
           </h2>
           <div className="why-choose-us-items">
             <div className="why-choose-us-item">
               <h3 className="why-choose-us-number">01.</h3>
-              <div lassName="why-choose-us-sub-item">
-              <h3 className="why-choose-us-item-title">Мировое признание</h3>
-              <p className="why-choose-us-item-description"> Участвуя в этом чемпионате, вы получите возможность соревноваться с лучшими IT-талантами из стран СНГ, что не только повышает ваш профессиональный статус, но и приносит вам международное признание.</p>
+              <div className="why-choose-us-sub-item">
+                <h3 className="why-choose-us-item-title">Мировое признание</h3>
+                <p className="why-choose-us-item-description"> Участвуя в этом чемпионате, вы получите возможность соревноваться с лучшими IT-талантами из стран СНГ, что не только повышает ваш профессиональный статус, но и приносит вам международное признание.</p>
               </div>
             </div>
             <div className="why-choose-us-item">
               <h3 className="why-choose-us-number">02.</h3>
-              <div lassName="why-choose-us-sub-item">
-              <h3 className="why-choose-us-item-title">Престижная платформа</h3>
-              <p className="why-choose-us-item-description">International IT Skills Competition — одно из самых престижных соревнований в IT-сфере. Будучи его участником, вы становитесь частью элитной группы профессионалов, известных своими достижениями и высокой экспертизой. </p>
+              <div className="why-choose-us-sub-item">
+                <h3 className="why-choose-us-item-title">Престижная платформа</h3>
+                <p className="why-choose-us-item-description">International IT Skills Competition — одно из самых престижных соревнований в IT-сфере. Будучи его участником, вы становитесь частью элитной группы профессионалов, известных своими достижениями и высокой экспертизой.</p>
               </div>
             </div>
             <div className="why-choose-us-item">
               <h3 className="why-choose-us-number">03.</h3>
-              <div lassName="why-choose-us-sub-item">
-              <h3 className="why-choose-us-item-title">Эксклюзивный доступ</h3>
-              <p className="why-choose-us-item-description">Этот чемпионат предназначен исключительно для выдающихся IT-специалистов с опытом работы не менее пяти лет, что гарантирует высокий уровень квалификации и профессионализма среди участников. Это создает уникальную среду для обмена передовыми знаниями и опытом.</p>
+              <div className="why-choose-us-sub-item">
+                <h3 className="why-choose-us-item-title">Эксклюзивный доступ</h3>
+                <p className="why-choose-us-item-description">Этот чемпионат предназначен исключительно для выдающихся IT-специалистов с опытом работы не менее пяти лет, что гарантирует высокий уровень квалификации и профессионализма среди участников. Это создает уникальную среду для обмена передовыми знаниями и опытом.</p>
               </div>
             </div>
           </div>
@@ -152,6 +155,17 @@ const MainContent = () => {
         </div>
       </div>
 
+      <div className="sponsors-section">
+        <div className="sponsors-title">Спонсоры International IT Skills Competition</div>
+        <div className="sponsors-logos">
+          <img src={SponsorLogo1} alt="Sponsor 1" />
+          <img src={SponsorLogo2} alt="Sponsor 2" />
+          <img src={SponsorLogo3} alt="Sponsor 3" />
+          <img src={SponsorLogo4} alt="Sponsor 4" />
+          <img src={SponsorLogo5} alt="Sponsor 5" />
+          <img src={SponsorLogo6} alt="Sponsor 6" />
+        </div>
+      </div>
     </>
   );
 };
