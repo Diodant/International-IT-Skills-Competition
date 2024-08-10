@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/International-IT-Skills-Competition/static/css/main.55fcf3d3.css",
-    "main.js": "/International-IT-Skills-Competition/static/js/main.35afe585.js",
+    "main.css": "/International-IT-Skills-Competition/static/css/main.2a1b65a6.css",
+    "main.js": "/International-IT-Skills-Competition/static/js/main.b7868bdf.js",
     "static/js/453.ae3339de.chunk.js": "/International-IT-Skills-Competition/static/js/453.ae3339de.chunk.js",
     "static/media/3d-geometric-abstract-twist-background.jpg": "/International-IT-Skills-Competition/static/media/3d-geometric-abstract-twist-background.d4ac0bcdc702e2eb9704.jpg",
     "static/media/flaticon.svg": "/International-IT-Skills-Competition/static/media/flaticon.80562b44dea3e86324ad.svg",
+    "static/media/6.svg": "/International-IT-Skills-Competition/static/media/6.e829b101cb80d576880828faa8b6e8e2.svg",
+    "static/media/Articles2.jpg": "/International-IT-Skills-Competition/static/media/Articles2.9004ab894c94282701d4.jpg",
+    "static/media/Articles1.png": "/International-IT-Skills-Competition/static/media/Articles1.58259e37b6ec0990a52f.png",
+    "static/media/Articles3.jpg": "/International-IT-Skills-Competition/static/media/Articles3.a7336db50771d21d82aa.jpg",
     "static/media/1.png": "/International-IT-Skills-Competition/static/media/1.9d782de0272659fe0e45.png",
     "static/media/why-choose-us.png": "/International-IT-Skills-Competition/static/media/why-choose-us.2806f91216c03cff726b.png",
     "static/media/flaticon.eot": "/International-IT-Skills-Competition/static/media/flaticon.b6b0d40051768543ff4a.eot",
     "static/media/flaticon.ttf": "/International-IT-Skills-Competition/static/media/flaticon.8dd59ad601c21bda9f78.ttf",
+    "static/media/Articles4.jpg": "/International-IT-Skills-Competition/static/media/Articles4.1f874f84960fdffcf697.jpg",
     "static/media/Offerings@2x.png": "/International-IT-Skills-Competition/static/media/Offerings@2x.46e2822a9253ab79ad2f.png",
     "static/media/flaticon.woff": "/International-IT-Skills-Competition/static/media/flaticon.0ed5896e1b12e1212a83.woff",
     "static/media/flaticon.woff2": "/International-IT-Skills-Competition/static/media/flaticon.6ecce71f5d24cee7eb87.woff2",
     "static/media/logo.svg": "/International-IT-Skills-Competition/static/media/logo.f047c7564b97d3da65ab0b834225e9c5.svg",
+    "static/media/4.svg": "/International-IT-Skills-Competition/static/media/4.00930035824732348d0d62de6c9299fe.svg",
+    "static/media/3.svg": "/International-IT-Skills-Competition/static/media/3.64614bdb64b962e6a57f66178858cdfd.svg",
+    "static/media/2.svg": "/International-IT-Skills-Competition/static/media/2.214829f55c6e08141af6036499427d97.svg",
+    "static/media/5.svg": "/International-IT-Skills-Competition/static/media/5.3af14127ba19a4d711da63e6eb31595b.svg",
+    "static/media/1.svg": "/International-IT-Skills-Competition/static/media/1.e8fab9d46900b5263b7a522022161b8f.svg",
     "index.html": "/International-IT-Skills-Competition/index.html",
-    "main.55fcf3d3.css.map": "/International-IT-Skills-Competition/static/css/main.55fcf3d3.css.map",
-    "main.35afe585.js.map": "/International-IT-Skills-Competition/static/js/main.35afe585.js.map",
+    "main.2a1b65a6.css.map": "/International-IT-Skills-Competition/static/css/main.2a1b65a6.css.map",
+    "main.b7868bdf.js.map": "/International-IT-Skills-Competition/static/js/main.b7868bdf.js.map",
     "453.ae3339de.chunk.js.map": "/International-IT-Skills-Competition/static/js/453.ae3339de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55fcf3d3.css",
-    "static/js/main.35afe585.js"
+    "static/css/main.2a1b65a6.css",
+    "static/js/main.b7868bdf.js"
   ]
 }
