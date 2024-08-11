@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import MainImg from '../img/Offerings@2x.png';
 import UsImg from '../img/why-choose-us.png';
 import TrustedImage from '../img/1.png';
-
+import NewsPreview from './NewsPreview';
 
 import SponsorLogo1 from '../img/sponsors/1.svg'; 
 import SponsorLogo2 from '../img/sponsors/2.svg';
@@ -27,7 +27,7 @@ const MainContent = () => {
             <div className='pre-title'>международный чемпионат</div>
             <div className='main-title'>International IT <br /> Skills <span className="highlight">Competition</span></div>
             <p className='main-text'>Объединяющий выдающихся IT-специалистов из всех стран СНГ. Это событие, проводимое ежегодно с 1 по 17 апреля с 2019 года, стало синонимом высочайших стандартов профессионализма и инноваций в IT-сфере.</p>
-            <Link to="/start" className="start-button">Подать заявку</Link>
+            <Link to="/apply" className="start-button">Подать заявку</Link>
           </div>
           <div className="image-section">
             <div className="orbit"></div>
@@ -165,6 +165,21 @@ const MainContent = () => {
           <img src={SponsorLogo5} alt="Sponsor 5" />
           <img src={SponsorLogo6} alt="Sponsor 6" />
         </div>
+      </div>
+
+      <div className="services-section">
+        <div className="services-header">
+          <div className='services-text-cont'>   
+          <div className='pre-title'>Блог</div>       
+          <h2 className="services-title">Последние статьи</h2>
+          </div>
+          <div>
+          <Link to="/articles" className="services-button">
+            Больше статей <i className="flaticon-right-arrow-1"></i>
+          </Link>
+          </div>
+        </div>
+        <NewsPreview />
       </div>
     </>
   );

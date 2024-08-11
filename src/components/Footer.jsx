@@ -16,9 +16,20 @@ const Footer = () => {
           <Link to="/criteria">Критерии оценки</Link>
           <Link to="/winners">Победители</Link>
           <Link to="/judges">Судьи</Link>
+          <Link to="/articles">Статьи</Link>
+        </div>
+        <div className="footer-contacts">
+          <div className="footer-contact-item">
+            <i className="bi bi-envelope fo-icon"></i>
+            <a href="mailto:itsc@gmail.com">itsc@gmail.com</a>
+          </div>
+          <div className="footer-contact-item">
+            <i className="bi bi-telephone fo-icon"></i>
+            <a href="tel:+79568567676">+7 956-856-76-76</a>
+          </div>
         </div>
         <div className="footer-copy">
-        <p>&copy; 2019-2024 Все права защищены.</p>
+          <p>&copy; 2019-2024 Все права защищены.</p>
         </div>
       </div>
     </footer>
