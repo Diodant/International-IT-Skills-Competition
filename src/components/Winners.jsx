@@ -3,14 +3,14 @@ import winnersData from './winnersData';
 import PageHeader from './PageHeader'; 
 
 const Winners = () => {
-  const [selectedYear, setSelectedYear] = useState(2019);
+  const [selectedYear, setSelectedYear] = useState(2018);
 
   return (
     <>
       <PageHeader title="Победители" />
       <div className="winners-page">
         <h1 className="winners-title">
-          Победители International <span className="highlight">IT Skills Competition</span> (2019-2024)
+          Победители International <span className="highlight">IT Skills Competition</span> (2018-2024)
         </h1>
         <div className="years-nav">
           {Object.keys(winnersData).map((year) => (
