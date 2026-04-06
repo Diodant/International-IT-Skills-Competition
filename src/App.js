@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { HelmetProvider } from 'react-helmet-async';
 
 import MainContent from './components/MainContent';
 import Navigation from './components/Navigation';
@@ -20,6 +20,7 @@ import './components/flaticon.css';
 const App = () => {
 
   return (
+    <HelmetProvider>
     <Router>
       <div >
         <Navigation />
@@ -38,6 +39,7 @@ const App = () => {
         <Footer />
       </div>
     </Router>
+    </HelmetProvider>
   );
 };
 

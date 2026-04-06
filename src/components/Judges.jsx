@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHeader from './PageHeader';
+import { Helmet } from 'react-helmet-async';
 
 const judgesData = {
     2018: [
@@ -229,8 +230,56 @@ const judgesData = {
 };
 
 const Judges = () => {
+    const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Судьи International IT Skills Competition",
+    url: "https://it-skills-competition.com/judges",
+    inLanguage: "ru",
+    mainEntity: {
+      "@type": "Person",
+      name: "Вадим Пренко",
+      alternateName: "Vadym Prenko",
+      nationality: "Ukraine",
+      award: "International IT Skills Competition Judge 2023"
+    }
+  };
   return (
     <>
+    <Helmet
+        script={[
+          {
+            type: "application/ld+json",
+            innerHTML: JSON.stringify(structuredData),
+          },
+        ]}
+      >
+        <html lang="ru" />
+        <title>
+          Судьи International IT Skills Competition — Vadym Prenko
+        </title>
+        <meta
+          name="description"
+          content="Судьи International IT Skills Competition. В составе судей: Vadym Prenko (Вадим Пренко, Ukraine) и другие международные эксперты."
+        />
+        <link rel="canonical" href="https://it-skills-competition.com/judges" />
+        <meta name="robots" content="index,follow,max-image-preview:large" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Судьи International IT Skills Competition"
+        />
+        <meta
+          property="og:description"
+          content="Судьи International IT Skills Competition. В составе судей: Vadym Prenko (Вадим Пренко, Ukraine)."
+        />
+        <meta property="og:url" content="https://it-skills-competition.com/judges" />
+      </Helmet>
+      <div className="seo-hidden-name" id="vadym-prenko-seo">
+  Vadym Prenko
+</div>
+
       <PageHeader title="Судьи" />
 
       <div className="judges-page">
